@@ -1,12 +1,12 @@
 // Created using Xilinx Cse Software [ISE - 14.7]
-// Date: Sun Aug 18 14:23:59 2019
+// Date: Tue Apr 21 14:52:49 2020
 
 TRST OFF;
 ENDIR IDLE;
 ENDDR IDLE;
 STATE RESET;
 STATE IDLE;
-FREQUENCY 1E6 HZ;
+FREQUENCY 3E5 HZ;
 //Operation: Program -p 0 -e -v 
 TIR 0 ;
 HIR 0 ;
