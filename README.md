@@ -7,6 +7,8 @@ The XCPLA is a replacement for the PLA in older versions of the Commodore 64. It
 
 More information can be found in my [blog post](https://www.hackup.net/2019/05/the-xcpla-yet-another-pla-replacement/).
 
+There are two different versions of the compiled firmware provided in the [`build/`](./build/) directory, both as JED and SVF files. The first one is called `xcpla-dodgy` and contains the exact same core as the originial DodgyPLA project. The other one is called `xcpla-neat` and it uses the modified core from the [neatPLA project][3]. This core implements different output delays that seem to [fix issues][4] some pepole have been experiencing on certain mainboards. Both versions can be programmed onto the XCPLA.
+
 In hindsight, it would have been better to create a new repository for the XCPLA. But somehow I failed to do so in time, so here we are.
 
 There is no warranty whatsoever. **USE AT YOUR OWN RISK!**.
@@ -29,3 +31,6 @@ This project includes:
 
 * A Xilinx ISE project written in Verilog for Xilinx XC9536XL
 * A KiCad project including a board designed for home etching
+
+[3]: https://github.com/1c3d1v3r/neatPLA
+[4]: https://github.com/desaster/c64-dodgypla/issues/4
